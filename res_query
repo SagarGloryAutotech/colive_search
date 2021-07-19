@@ -1,0 +1,300 @@
+{
+    "status": "success",
+    "message": "Fetched successfully",
+    "data": {
+        "13": {
+            "wifi": {
+                "match": 0.6577485203742981,
+                "entity": "30 gb wifi",
+                "tag": "amenities",
+                "score": 0.5261988162994385
+            },
+            "lounge": {
+                "match": 0.7547908425331116,
+                "entity": "dining table",
+                "tag": "amenities",
+                "score": 0.6038326740264893
+            },
+            "tv": {
+                "match": 1,
+                "entity": "tv",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "distance": [
+                "1.7120064427257853 km away"
+            ],
+            "totalMatch": 0.482507872581482
+        },
+        "22": {
+            "wifi": {
+                "match": 0.6577485203742981,
+                "entity": "30 gb wifi",
+                "tag": "amenities",
+                "score": 0.5261988162994385
+            },
+            "lounge": {
+                "match": 0.7547908425331116,
+                "entity": "dining table",
+                "tag": "amenities",
+                "score": 0.6038326740264893
+            },
+            "tv": {
+                "match": 1,
+                "entity": "tv",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "distance": [
+                "1.9890970631446119 km away"
+            ],
+            "totalMatch": 0.482507872581482
+        },
+        "30034": {
+            "wifi": {
+                "match": 0.6577485203742981,
+                "entity": "30 gb wifi",
+                "tag": "amenities",
+                "score": 0.5261988162994385
+            },
+            "lounge": {
+                "match": 1,
+                "entity": "lounge",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "tv": {
+                "match": 0.8132598400115967,
+                "entity": "32 tv",
+                "tag": "amenities",
+                "score": 0.6506078720092774
+            },
+            "distance": [
+                "1.0284062759086219 km away"
+            ],
+            "totalMatch": 0.49420167207717897
+        },
+        "30540": {
+            "lounge": {
+                "match": 1,
+                "entity": "lounge",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "tv": {
+                "match": 1,
+                "entity": "tv",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "distance": [
+                "1.04756486445561 km away"
+            ],
+            "totalMatch": 0.4
+        },
+        "31109": {
+            "ac": {
+                "match": 1,
+                "entity": "ac",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "lounge": {
+                "match": 1,
+                "entity": "lounge",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "tv": {
+                "match": 0.8132598400115967,
+                "entity": "32 tv",
+                "tag": "amenities",
+                "score": 0.6506078720092774
+            },
+            "distance": [
+                "0.8749617552376449 km away"
+            ],
+            "totalMatch": 0.5626519680023194
+        },
+        "31479": {
+            "wifi": {
+                "match": 1,
+                "entity": "wifi",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "lounge": {
+                "match": 1,
+                "entity": "lounge",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "distance": [
+                "0.6073113854740627 km away"
+            ],
+            "totalMatch": 0.4
+        },
+        "31532": {
+            "wifi": {
+                "match": 1,
+                "entity": "wifi",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "lounge": {
+                "match": 0.7853601574897766,
+                "entity": "terrace lounge",
+                "tag": "amenities",
+                "score": 0.6282881259918214
+            },
+            "distance": [
+                "1.4855038224097206 km away"
+            ],
+            "totalMatch": 0.35707203149795536
+        },
+        "31613": {
+            "wifi": {
+                "match": 1,
+                "entity": "wifi",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "lounge": {
+                "match": 0.7853601574897766,
+                "entity": "terrace lounge",
+                "tag": "amenities",
+                "score": 0.6282881259918214
+            },
+            "distance": [
+                "1.3826905972926897 km away"
+            ],
+            "totalMatch": 0.35707203149795536
+        },
+        "31616": {
+            "wifi": {
+                "match": 1,
+                "entity": "wifi",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "lounge": {
+                "match": 0.7853601574897766,
+                "entity": "terrace lounge",
+                "tag": "amenities",
+                "score": 0.6282881259918214
+            },
+            "distance": [
+                "1.3826905972926897 km away"
+            ],
+            "totalMatch": 0.35707203149795536
+        },
+        "31869": {
+            "wifi": {
+                "match": 1,
+                "entity": "wifi",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "lounge": {
+                "match": 0.7853601574897766,
+                "entity": "terrace lounge",
+                "tag": "amenities",
+                "score": 0.6282881259918214
+            },
+            "distance": [
+                "1.4855038224097206 km away"
+            ],
+            "totalMatch": 0.35707203149795536
+        },
+        "31906": {
+            "wifi": {
+                "match": 1,
+                "entity": "wifi",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "lounge": {
+                "match": 0.7853601574897766,
+                "entity": "terrace lounge",
+                "tag": "amenities",
+                "score": 0.6282881259918214
+            },
+            "distance": [
+                "0.0 km away"
+            ],
+            "totalMatch": 0.35707203149795536
+        },
+        "32511": {
+            "wifi": {
+                "match": 1,
+                "entity": "wifi",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "lounge": {
+                "match": 1,
+                "entity": "lounge",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "distance": [
+                "0.9390103168945756 km away"
+            ],
+            "totalMatch": 0.4
+        },
+        "32603": {
+            "wifi": {
+                "match": 1,
+                "entity": "wifi",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "lounge": {
+                "match": 0.7853601574897766,
+                "entity": "terrace lounge",
+                "tag": "amenities",
+                "score": 0.6282881259918214
+            },
+            "distance": [
+                "0.26381706057503296 km away"
+            ],
+            "totalMatch": 0.35707203149795536
+        },
+        "32616": {
+            "wifi": {
+                "match": 1,
+                "entity": "wifi",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "lounge": {
+                "match": 0.7853601574897766,
+                "entity": "terrace lounge",
+                "tag": "amenities",
+                "score": 0.6282881259918214
+            },
+            "distance": [
+                "0.41000051431953904 km away"
+            ],
+            "totalMatch": 0.35707203149795536
+        },
+        "33870": {
+            "wifi": {
+                "match": 1,
+                "entity": "wifi",
+                "tag": "amenities",
+                "score": 0.8
+            },
+            "lounge": {
+                "match": 0.7853601574897766,
+                "entity": "terrace lounge",
+                "tag": "amenities",
+                "score": 0.6282881259918214
+            },
+            "distance": [
+                "0.0 km away"
+            ],
+            "totalMatch": 0.35707203149795536
+        }
+    }
+}

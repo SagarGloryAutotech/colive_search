@@ -1,0 +1,490 @@
+﻿<!doctype html>
+<html lang="en">
+<head id="head1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Security-Policy" content="script-src &#39;self&#39; &#39;unsafe-inline&#39; https://code.jquery.com https://cdnjs.cloudflare.com/ajax/libs/popper.js/ https://maps.googleapis.com/ https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/ https://www.googletagmanager.com/  https://salesiq.zoho.com/widget https://js.zohostatic.com/ https://js.zohocdn.com/  https://www.google-analytics.com/analytics.js https://www.googleadservices.com/pagead/conversion_async.js http://static.hotjar.com/ https://script.hotjar.com/ https://googleads.g.doubleclick.net/pagead/ https://connect.facebook.net/ http://www.googleadservices.com/ https://colivebot.xyz:8020 https://colivebot.xyz/files/deploy/  https://salesiq.zoho.com/widget https://js.zohostatic.com/ https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/ https://dtzpfzv31buvf.cloudfront.net https://chat.konverse.ai/ https://coliveshona.blob.core.windows.net/" />
+    <title>
+        Colive
+    </title>
+    <!-- favicon -->
+    <link rel="icon" href="https://www.colive.com/favicon.png" type="image/png" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css?v=20210714" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!-- checkbox plugin -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css" />
+    <!-- Animation plugin -->
+    <link href="/assets/css/animate.min.css" rel="stylesheet" />
+    <!-- site header include -->
+    <div class="header include" id="site-header" data-include="header"></div>
+    <!-- END of fixed call and chat buttons -->
+
+    <script>
+        window.onload = function() {
+            const list = JSON.parse(localStorage.getItem('properties'));
+            if(list && list.length){
+                var elements = "";
+                for(var p of list){
+                    if(p.id)   {
+                        var url = p.url.split('=')[1];
+                        elements = elements + `
+                <div class="col-lg-3 col-md-3 col-12 pod" data-price="8000" data-order="0">
+                                                <div class="card">
+                                                    <div class="product-carousel" data-toggle="modal" data-target="#QuickviewModal">
+                                                        <div class="owl-carousel owl-theme owl-carousel-slider owl-loaded owl-drag GalleryViewHomePageProperty" id="PropertyImages_1_20032">
+                                                            <div class="owl-stage-outer">
+                                                                <div class="owl-stage" style=" transition: all 0s ease 0s; width: 6267px;">
+                                                                    <div class="owl-item cloned" style="width: 313.328px;">
+                                                                        <div class="carousel-img">
+                                                                            <img src="${p.img}" alt="" class="card-img-top property-img">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="owl-dots disabled"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="cardshare-dv sharepropb_divaddress">
+                                                            <div class="c-share">
+                                                                <input class="c-share__input" type="checkbox" id="sharprop20032">
+                                                                <label class="c-share__toggler" for="sharprop20032">
+                                                                    <img src="images/propertyshare.png" class="img-fluid">
+                                                                </label>
+                                                                <ul class="c-share_options">
+                                                                    <li class="shareli-align">
+                                                                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.colive.com/Property/${url}" return="" false; target="_blank">                                                 <img src="images/facebook.png" class="">                                             </a>
+                                                                    </li>
+                                                                    <li class="shareli-align">
+                                                                        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.colive.com/Property/${url}" target="_blank">
+                                                                            <img src="images/linkedin.png" class="">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="shareli-align">  <a href="https://twitter.com/share?url=https://www.colive.com/Property/${url}" target="_blank">                                                 <img src="images/twitter.png" class="">                                             </a>                                         </li>
+                                                                    <li class="shareli-align" id="dummyvalucheck">
+                                                                        <a class="whatsappshare_propertycard" id="propdivcount_20032" href="javascript:void(0);" onclick="whatsappShare(&quot;https://www.colive.com/Property/${url}&quot;);">
+                                                                            <img src="images/whatsapp.png" class="">
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <a href="https://www.colive.com/Property/${url}">
+                                                            <h5 class="card-title"> ${p.name} <i class="fa fa-heart-o"></i></h5>
+                                                            <div class="cords" data-toggle="tooltip" data-placement="bottom" data-title="Marathahalli" data-original-title="" title=""><img src="images/marker.png" alt="">${p.address}</div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-md-6 col-6">
+                                                                    <div class="price">
+                                                                        <h6 class="pricing">Starting price</h6>
+                                                                        <br>
+                                                                        <p><i class="fa fa-inr" aria-hidden="true"></i>&nbsp;${p.price}</p>
+                                                                    </div>
+                                                                    <div class="rating">
+                                                                        <p class="rate">3.5/5</p>
+                                                                        <p class="wid">  <i class="fa fa-star" aria-hidden="true"></i>                                             <i class="fa fa-star" aria-hidden="true"></i>                                             <i class="fa fa-star" aria-hidden="true"></i>                                             <i class="fa fa-star" aria-hidden="true"></i>                                             <i class="fa fa-star" aria-hidden="true"></i>                                         </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-6 PropertyViewDesign newvideovisitalign">                                    <span class="videovisit"> <img src="images/videochat.png" alt="Schedule Video Visit" class="img-fluid" data-toggle="tooltip" data-placement="top" data-title="Schedule Video Visit" data-original-title="" title=""></span>                                                                      </div>
+                                                            </div>
+                                                        </a>
+                                                        <hr class="line">
+                                                        <a href="https://www.colive.com/Property/${url}">
+                                                            <div class="scheduleFreeVissit">                                     <span class="property">Schedule a visit</span>                             </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="quick-view">                         <input type="button" value="Quick View" data-toggle="modal" data-target="#QuickviewModal" data-link="Colive_012" onclick="BindQuickview($(this))">                     </div>
+                                                </div>
+                                            </div>  
+                `;
+                    }
+                }
+                document.getElementById('PropListCards11').innerHTML = elements;
+            }
+        };
+    </script>
+
+    <!-- start of grid-view 1st section -->
+    <section class="grid-view prop-listing-search-wrapper">
+        <div id="search-contain" class="container-fluid pad0">
+            <div class="row m-0">
+                <!-- filer-button -->
+                <div class="mobileFilterbutton d-lg-none d-md-none d-xs-block">
+                    <div class="MobileFilterSort">
+                        <div class="MobileFilterSortfilter">
+                            <button class="mobilefilter-button" value="" id="mobileSorting">
+                                <svg width="24" height="24" viewBox="0 0 24 24" class="result-icon">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path d="M0 0h24v24H0z" opacity="0.05"></path>
+                                        <path fill="#282C3F" d="M7.445 7.48V5.672L5.665 7.48h1.78zm1.09-4.42c.304.12.465.39.465.706v16.437a.784.784 0 01-.783.797.762.762 0 01-.772-.781V8.982H4.003a.832.832 0 01-.765-.204.759.759 0 01.002-1.105L7.652 3.23a.832.832 0 01.882-.17zm8.02 15.269l1.78-1.81h-1.78v1.81zm4.207-3.107a.76.76 0 01-.002 1.106l-4.412 4.442a.832.832 0 01-.882.17c-.305-.12-.466-.39-.466-.706V3.797c0-.432.332-.797.783-.797.45 0 .772.35.772.781v11.237h3.442a.833.833 0 01.765.204z"></path>
+                                    </g>
+                                </svg>
+                                Sort By
+                            </button>
+                            <button class="mobilefilter-button" value="" id="mobileFitlerby">
+                                <svg width="24" height="24" viewBox="0 0 24 24" class="result-icon">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path d="M0 0h24v24H0z" opacity="0.05"></path>
+                                        <path fill="#282C3F" d="M3.749 7.508a.75.75 0 010-1.5h3.138a2.247 2.247 0 014.243 0h9.121a.75.75 0 010 1.5h-9.126a2.248 2.248 0 01-4.232 0H3.749zm13.373 9h3.129a.75.75 0 010 1.5h-3.135a2.247 2.247 0 01-4.231 0H3.749a.75.75 0 010-1.5h9.13a2.248 2.248 0 014.243 0z"></path>
+                                    </g>
+                                </svg>
+                                Filter
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mobile-filter-apply">
+                        <div class="mobileFilterApplyFun">
+                            <button class="mobilefilter-button" id="btnCloseFilter" onclick="ResetSearchFilter();">Close</button>
+                            <button class="mobilefilter-button ApplyFilterbtn" onclick="ApplySearchFilter(0);">Apply</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile Filter End -->
+                <div class="property_rightview bg-white">
+                    <!--pt-5-->
+                    <section id="GridView" class="">
+                        <!--pt-5-->
+                        <div class="container sort-box d-none">
+                            <div class="row">
+                                <div class="col-md-12  align-items-center justify-content-between pt-5">
+                                    <div class="sort-by-rate d-none">
+                                        <h5 class="sortby">Sort By:</h5>
+                                        <p class="rating">
+                                            Rating
+                                        </p>
+                                        <i class="fa fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="rightGridView_List">
+                                    <div class="property_list_view_pad">
+                                        <div class="row card-carousel white-background" id="PropListCards11">
+                                            <!-- dynamic card will come here.... -->
+                                        </div>
+                                    </div>
+                                    <div class="property_list_view_pad">
+                                        <div class="row card-carousel white-background" id="TrendingPropertiesCards">
+                                        </div>
+                                    </div>
+                                    <div class="property_list_view_pad">
+                                        <div class="row card-carousel white-background" id="SimilarPropListCards">
+                                        </div>
+                                    </div>
+                                    <!-- Modal -->
+                                    <div class="modal fade QuickviewModal" id="QuickviewModal" tabindex="-1" role="dialog" aria-labelledby="QuickviewModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span class="close" aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    <div class="grid-popup-wrap">
+                                                        <div class="col-md-8 mt-4">
+                                                            <h4><span id="spnQviewPropertyName"></span></h4>
+                                                            <div class="location" style="display: flex;">
+                                                                <img src="/assets/images/product/location.svg" alt="">
+                                                                <p class="head_title" id="spnQviewPropaddr"></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="first-section">
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+                                                                        <div class="product-carousel">
+                                                                            <div class="owl-carousel owl-theme owl-carousel-slider" id="QviewPropertyImages">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="info">
+                                                                            <div class="row">
+                                                                                <div class="col-md-12">
+                                                                                    <div class="rating-wrap row">
+                                                                                        <div class="rating col-lg-10 col-12">
+                                                                                            <p>3.5/5</p>
+                                                                                            <p>
+                                                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                                                            </p>
+                                                                                        </div>
+                                                                                        <div class="col-lg-2 col-12 textcenter d-none">
+                                                                                            <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                                                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="detail-info" id="spnQviewPropDesc">
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="graphical-info">
+                                                                            <table class="table">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th scope="col">Sharing type</th>
+                                                                                        <th scope="col">Room type</th>
+                                                                                        <th scope="col">Features</th>
+                                                                                        <th scope="col">Rent</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody id="QviewKeyDetails">
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="terms">
+                                                                            <div class="terms-points">
+                                                                                <h4>Terms</h4>
+                                                                                <div class="term-deposit">
+                                                                                    <div>
+                                                                                        <p>Deposit</p>
+                                                                                        <p id="spnQviewDepositDuration"></p>
+                                                                                    </div>
+                                                                                    <div>
+                                                                                        <p>Notice period </p>
+                                                                                        <p id="spnQviewNoticeDuration"></p>
+                                                                                    </div>
+                                                                                    <div>
+                                                                                        <p>Lock-in period</p>
+                                                                                        <p id="spnQviewlockinDuration"></p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="offers d-none">
+                                                                                <h4>Offers <span>2020 Offer</span></h4>
+                                                                                <div class="offers-block">
+                                                                                    <img src="/assets/images/product/discount.svg" alt="">
+                                                                                    <p>
+                                                                                        2 months deposit to be paid in 2 equal installments – first upon check-in & second with the following month rent
+                                                                                    </p>
+                                                                                </div>
+                                                                                <div class="offers-block">
+                                                                                    <img src="/assets/images/product/discount.svg" alt="">
+                                                                                    <p>
+                                                                                        2 months deposit to be paid in 2 equal installments – first upon check-in & second with the following month rent
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="know-more">
+                                                                                <a id="knowMore_button" href="">Know more</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="map-view py-0" id="MapView">
+                        <div class="container-fluid bgc">
+                            <div class="top-align">
+                                <div class="row mapReverse">
+                                    <div class="col-sm-12 col-md-4 col-12 mapview">
+                                        <div class="d-none">
+                                            <div class="col-md-12 d-flex align-items-center justify-content-between">
+                                                <div class="display">
+                                                    <h5 class="sortby">Sort By:</h5>
+                                                    <p class="rating_align">Rating</p>
+                                                    <i class="fa fa-angle-down"></i>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="PropMapCards"></div>
+                                    </div>
+                                    <div class="col-md-8 col-12 maplist">
+                                        <div class="map-box">
+                                            <div id="PropertySearchMap" class="googlemap">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- site footer include -->
+    <div class="footer include" id="site-footer" data-include="footer"></div>
+    <div class="goup-page">
+        <div class="UpArrow"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+    </div>
+    <div class="modal" id="video-modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="container" id="divLocationMenus">
+                <!-- HERE ADD Menus -->
+                <div class="CityList" id="CityList">
+                </div>
+            </div>
+            <button class="modal-close is-large" id="btnClose" aria-label="close">
+                <svg version="1.1" class="svgClose" id="closeLoc" style="transform: rotate(270deg);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 31.49 31.49" xml:space="preserve">
+                <path d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587	c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"></path>
+               </svg>
+            </button>
+        </div>
+    </div>
+    <div class="CssLoaderStyles" id="AjaxLoader" style="display: none;">
+        <div class="CssLoaderAlign">
+            <div class="Logo-loader"></div>
+            <div class="logoloader"></div>
+        </div>
+    </div>
+    <input type="hidden" id="hdnFilterLoaded" value="0" />
+    <input type="hidden" id="hdnMinValue" value="0" />
+    <input type="hidden" id="hdnMaxValue" value="0" />
+    <input type="hidden" id="hdnInitialMinValue" value="0" />
+    <input type="hidden" id="hdnInitialMaxValue" value="0" />
+    <input type="hidden" id="hdnQueryString" value="" />
+    <!-- ./Footer -->
+    <script defer src="/assets/js/custom.js??v=20210708"></script>
+    <!-- <script type="text/javascript" id="allincall-bot-1" popuptime="30" TimeSlotToShow="22:01-09:59" src="https://colivebot.xyz:8020/files/deploy/embed_chatbot_1.js"></script> -->
+    <!-- /. zoho code -->
+    <script type="text/javascript">
+        var $zoho = $zoho || {}; $zoho.salesiq = $zoho.salesiq || { widgetcode: "e63b562ff147aa34b1b0a8cf82c368a597756dfbbb3a01be5d123538a64fc2059c8eda290b7c7d5b403e106a2acd30a1", values: {}, ready: function () { } }; var d = document; s = d.createElement("script"); s.type = "text/javascript"; s.id = "zsiqscript"; s.defer = true; s.src = "https://salesiq.zoho.com/widget"; t = d.getElementsByTagName("script")[0]; t.parentNode.insertBefore(s, t); d.write("<div id='zsiqwidget'></div>");
+    </script>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyBl1Wwgdhv4XFl1nHNvCH-2QyD7ltJaueM"></script>
+    <!-- jQuery first, then Popper, then Bootstrap JS., owl-carousel2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Property Search Filter -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('title').data('desc', 'search');
+            getPropertyDetailsForSearch();
+
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= 180) {
+                    $('.maplist').addClass('fixed-header');
+                }
+                else {
+                    $('.maplist').removeClass('fixed-header');
+                }
+            });
+            // Filer SearchBar
+            //$(window).scroll(function () {
+            //    if ($(window).scrollTop() >= 50) {
+            //        $('#SerFilBox').addClass('search-filter-header');
+            //    }
+            //    else {
+            //        $('#SerFilBox').removeClass('search-filter-header');
+            //    }
+            //});
+
+            $('#CloseBtnLoc,#CloseBtnAmen,#CloseBtnLanguage,#CloseBtnHobbies').click(function () {
+                $(this).toggleClass("sprites-remove");
+                $(this).prev().toggleClass("filter-search-visible").focus();
+                $(this).parent().toggleClass("filter-search-expanded");
+            });
+
+
+            $('#mobileFitlerby').on('click', function () {
+                $('#search-property-filter').removeClass('slideOutDown').addClass('slideInUp Slideanimated').show();
+                $('.MobileFilterSort').hide();
+                $('.mobile-filter-apply').show();
+            });
+
+            $('#mobileSorting').on('click', function () {
+                $('.property-sorting').css('display', 'block');
+                $('.sort-sortBy').addClass('slideInUp Slideanimated');
+            });
+
+            $('.ApplyFilterbtn,#btnCloseFilter').on('click', function () {
+                $('#search-property-filter').removeClass('slideInUp').addClass('slideOutDown Slideanimated').hide();
+                $('.MobileFilterSort').show();
+                $('.mobile-filter-apply').hide();
+            });
+
+
+            $('#FilterPopUP').on('click', function () {
+                $('.PopUp_Filter').removeClass('d-none').addClass('d-block');
+            });
+
+            $('.mobileFilterTitle').on('click', 'li', function () {
+                $('.mobileFilterTitle li.filternav-active').removeClass('filternav-active');
+                $(this).addClass('filternav-active');
+            });
+
+            $(".section-header").addClass("closed");
+
+            $('.section-header').click(function () {
+                let $this = $(this);
+                let $others = $(".section-header").not($this);
+
+                $others.addClass("closed").removeClass('active');;
+                $others.siblings().slideUp();
+
+                $this.toggleClass("closed active");
+                $this.siblings().slideToggle();
+
+                return false;
+            });
+
+            var gouppage = $('.goup-page');
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 500) {
+                    gouppage.addClass('show');
+                } else {
+                    gouppage.removeClass('show');
+                }
+            });
+
+            gouppage.on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({ scrollTop: $("html").offset().top }, 1000);
+            });
+
+
+        });
+    </script>
+    <script>
+        $('.product-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            dots: false,
+            navText: [
+                "<i class='fa fa-angle-left'></i>",
+                "<i class='fa fa-angle-right'></i>"
+            ],
+            autoplay: false,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+    </body>
+</html>

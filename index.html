@@ -1,0 +1,163 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Security-Policy" content="script-src &#39;self&#39; &#39;unsafe-inline&#39; https://code.jquery.com https://cdnjs.cloudflare.com/ajax/libs/popper.js/ https://maps.googleapis.com/ https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/ https://www.googletagmanager.com/  https://salesiq.zoho.com/widget https://js.zohostatic.com/ https://js.zohocdn.com/  https://www.google-analytics.com/analytics.js https://www.googleadservices.com/pagead/conversion_async.js http://static.hotjar.com/ https://script.hotjar.com/ https://googleads.g.doubleclick.net/pagead/ https://connect.facebook.net/ http://www.googleadservices.com/ https://colivebot.xyz:8020 https://colivebot.xyz/files/deploy/  https://salesiq.zoho.com/widget https://js.zohostatic.com/ https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/ https://dtzpfzv31buvf.cloudfront.net https://chat.konverse.ai/ https://coliveshona.blob.core.windows.net/" />
+    <title>
+        Colive
+    </title>
+    <!-- favicon -->
+    <link rel="icon" href="https://www.colive.com/favicon.png" type="image/png" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css?v=20210714" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!-- checkbox plugin -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css" />
+    <!-- Animation plugin -->
+    <link href="/assets/css/animate.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background: #f2f2f2;
+    }
+
+    .search {
+      width: 100%;
+      position: relative;
+      display: flex;
+    }
+
+    .searchTerm {
+      width: 100%;
+      border: 3px solid #F2006C;
+      border-right: none;
+      padding: 5px;
+      height: 36px;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+    }
+
+    .searchButton {
+      width: 80px;
+      height: 36px;
+      border: 1px solid #F2006C;
+      background: #F2006C;
+      text-align: center;
+      color: #fff;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+      font-size: 20px;
+    }
+
+    /*Resize the wrap to see the search bar change!*/
+    .wrap {
+      width: 30%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .img-fluid {
+      padding: 20px;
+      height: 120px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <img class="img-fluid" alt="Colive" src="./images/logo-colive.png">
+    <div class="search">
+      
+      <input type="text" id="searchText" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton" onclick="myFunction()">
+        Search
+      </button>
+    </div>
+  </div>
+
+  <script>
+    function myFunction() {
+      var propertyList = [];
+      var searchTerm = document.getElementById("searchText").value;
+      if (searchTerm) {
+        const xhttp = new XMLHttpRequest();
+          xhttp.open("POST", "https://colive-dev.azurewebsites.net/query", true);
+          xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
+          xhttp.setRequestHeader("Content-Type", "application/json");
+
+        xhttp.addEventListener("readystatechange", function() {
+          if(this.readyState === 4) {
+            // console.log(this.responseText);
+            const res = JSON.parse(this.responseText).data;
+            if(res){
+              var i = 0;
+              for(let id of Object.keys(res)){
+                if(id){
+                  const xhttp = new XMLHttpRequest();
+                  xhttp.open("POST", "https://colive-dev.azurewebsites.net/properties", true);
+                  xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
+                  xhttp.setRequestHeader("Content-Type", "application/json");
+                  xhttp.setRequestHeader("auth_id", "EB884785-82B8-4F20-8264-D629D51D99BB");
+                  xhttp.addEventListener("readystatechange", function() {
+                  if(this.readyState === 4) {
+                    const re = JSON.parse(this.responseText);
+                    if(re && re.Data && re.Data.Property && re.Data.Property[0]){
+                      var d = re.Data.Property[0];
+                      propertyList.push({
+                        img: d.ImageName,
+                        name: d.PropertyName,
+                        id: d.PropertyID,
+                        address: d.Area + ', ' + d.City,
+                        price: d.PricePerMonth,
+                        url: d.ReferUrl
+                      });
+                    }
+                    if(i == Object.keys(res).length -1){
+                      localStorage.setItem('properties', JSON.stringify(propertyList));
+                      window.location.replace("./property-list.html");
+                      return true;
+                    }
+                    i++;
+                  }});
+                  var data = {propertyId: id.toString()};
+                  xhttp.send(JSON.stringify(data));
+                }
+              }
+            }
+          }
+        });
+
+        var data = {query: searchTerm};
+        xhttp.send(JSON.stringify(data));
+
+        // const xhttp = new XMLHttpRequest();
+        //    xhttp.open("POST", "https://colive-dev.azurewebsites.net/properties", true);
+        //    xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
+        //    xhttp.setRequestHeader("Content-Type", "application/json");
+        //    xhttp.setRequestHeader("Accept-Encoding", "gzip, deflate, br");
+        //    xhttp.setRequestHeader("auth_id", "EB884785-82B8-4F20-8264-D629D51D99BB");
+        //    xhttp.onreadystatechange = function() {
+        //     if (this.readyState == 4 && this.status == 200) {
+        //     // Response
+        //     var response = this.responseText;
+        //     alert("")
+        //     }
+        //   };
+        //    var data = {propertyId: "13"};
+        //    xhttp.send(JSON.stringify(data));
+      }
+    }
+  </script>
+</body>
+
+</html>

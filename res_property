@@ -1,0 +1,1184 @@
+{
+    "Status": "success",
+    "Message": "Welcome to Colive!",
+    "Data": {
+        "Property": [
+            {
+                "SubLocation": "Mahadevapura and Hebbal",
+                "Area": "Mahadevpura",
+                "PropertyID": 13,
+                "PropertyName": "Colive 004 Akshaya Vasudha ",
+                "Latitude": "12.971065",
+                "Longitude": "77.69471799999997",
+                "ApartmentID": 105,
+                "ApartmentName": "Akshaya Vasudha/211",
+                "RoomId": 349,
+                "OfferValues": 0.00,
+                "PricePerMonth": 9000.00,
+                "FixedAmenitiesPricing": 0,
+                "Deposit": 18000.00,
+                "PropertyType": "3 BHK Apartments",
+                "ImageType": "Bedroom",
+                "ReferUrl": "https://www.colive.com/property?location=CoLive_004",
+                "Capacity": "This entire building which has 2 wings is managed by CoLive & can house a total of 99 people in 34 apartments (10 One RKs, 5 One BHKs, 15 Two BHKs & 4 Three BHKs).",
+                "LocationDescription": "Colive Akshaya Vasudha is a premium property in modern styling with studio rooms and 2 BHK rooms without kitchen. The property is available in single and double sharing.\n\n",
+                "Availablity": "",
+                "SquareFeet": 0.00,
+                "ImageName": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044249-560x340.jpg",
+                "TileImageName": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904044249-280X170.jpg",
+                "DetailedImageName": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044249-560x340.jpg",
+                "SmallImageName": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904044249-140X130.jpg",
+                "PropertyModelType": 1,
+                "URL360Deg": null,
+                "YouTubeURL": "https://www.youtube.com/embed/KPjounlw2vY",
+                "LocationHighlights": "This property is located in Doddanekundi behind Udupi Garden Restaurant. Nearby restaurants, including Five Star Chicken and Brew &amp; Barbeque at Soul Space Arena is in close proximity. Bagmane Tech Park and Samsung R&amp;D is easily accessible from this location.",
+                "GooglePlusCode": "7J4VXMCV+CV",
+                "Landmark": "#277/277, 2nd A Main Rd, Gururaja Layout, Vibhutipura Extension, Doddanekundi, Bengaluru",
+                "TrendingTagDisplay": false,
+                "TrendingTagTypeId": 0,
+                "TrendingTagName": "",
+                "PropertyVariantsTypeId": 12,
+                "PropertyVariantTagName": "Private Room",
+                "City": "Bangalore",
+                "PropertyRating": 0.0,
+                "CustomerReviewsCount": 0,
+                "IsHavingVideoVisit": true,
+                "VideoVisit": {
+                    "IsHavingVideoVisit": true,
+                    "VideoVisitRoomCode": "",
+                    "IsVideoVisitEnable": false
+                },
+                "Amenities": [
+                    {
+                        "UtilityType": "Style",
+                        "Utility": [
+                            {
+                                "AmenityId": 70,
+                                "AmenityName": "Cooking Stove & Cylinder *",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104082355.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 12,
+                                "AmenityName": "Cupboard",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Cupboard_20170926092041.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 72,
+                                "AmenityName": "Dining Table *",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104082553.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 115,
+                                "AmenityName": "DTH *",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/DTH_20190301064627.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 18,
+                                "AmenityName": "Geyser",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Geyser_20170926092217.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 67,
+                                "AmenityName": "Induction Stove *",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104081539.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 13,
+                                "AmenityName": "Premium Bedding",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/PremiumBedding_20190113111048.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 6,
+                                "AmenityName": "Refrigerator",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Refrigerator_20170926091054.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 74,
+                                "AmenityName": "TV *",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104090209.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 7,
+                                "AmenityName": "Washing Machine",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/WashingMachine_20170926091915.png",
+                                "AmenityTypeID": 4
+                            }
+                        ]
+                    },
+                    {
+                        "UtilityType": "Safety",
+                        "Utility": [
+                            {
+                                "AmenityId": 43,
+                                "AmenityName": "Access Control",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/AccessControl_20190103025349.png",
+                                "AmenityTypeID": 5
+                            },
+                            {
+                                "AmenityId": 45,
+                                "AmenityName": "CCTV",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/CCTV_20190103030344.png",
+                                "AmenityTypeID": 5
+                            },
+                            {
+                                "AmenityId": 121,
+                                "AmenityName": "Central Security Monitoring System",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/CentralSecurityMonitoringSystem_20190531074118.png",
+                                "AmenityTypeID": 5
+                            },
+                            {
+                                "AmenityId": 24,
+                                "AmenityName": "Security",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Security_20170926092840.png",
+                                "AmenityTypeID": 5
+                            },
+                            {
+                                "AmenityId": 65,
+                                "AmenityName": "SOS/ Emergency Response",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104080524.png",
+                                "AmenityTypeID": 5
+                            }
+                        ]
+                    },
+                    {
+                        "UtilityType": "Service",
+                        "Utility": [
+                            {
+                                "AmenityId": 49,
+                                "AmenityName": "Community Washing Machine",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/CommunityWashingMachine_20190103073959.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 20,
+                                "AmenityName": "Cooking Stove",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/CookingStove_20170926092252.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 59,
+                                "AmenityName": "DG & Electricity @ actuals",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/DG&Electricity@actuals_20190128112348.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 44,
+                                "AmenityName": "Hot Water",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/HotWater_20190103072420.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 73,
+                                "AmenityName": "Housekeeping - Bi Weekly",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104082840.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 32,
+                                "AmenityName": "Lift",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Lift_20170926091550.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 162,
+                                "AmenityName": "Parking Space",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/ParkingSpace_20200303072802.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 22,
+                                "AmenityName": "Power Back up",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/PowerBackup_20170926091632.png",
+                                "AmenityTypeID": 7
+                            }
+                        ]
+                    },
+                    {
+                        "UtilityType": "Savings",
+                        "Utility": [
+                            {
+                                "AmenityId": 151,
+                                "AmenityName": "1 Month Deposit",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/2MonthsDeposit_20200224122341.png",
+                                "AmenityTypeID": 6
+                            },
+                            {
+                                "AmenityId": 168,
+                                "AmenityName": "Zero Lock-in",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/ZeroLock-in_20200730114024.png",
+                                "AmenityTypeID": 6
+                            }
+                        ]
+                    },
+                    {
+                        "UtilityType": "Smart",
+                        "Utility": [
+                            {
+                                "AmenityId": 38,
+                                "AmenityName": "30 GB Wifi",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/30GBwiFi_20190103020620.png",
+                                "AmenityTypeID": 8
+                            }
+                        ]
+                    },
+                    {
+                        "UtilityType": "Social",
+                        "Utility": [
+                            {
+                                "AmenityId": 27,
+                                "AmenityName": "Fitness Room",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Gym_20170926092729.png",
+                                "AmenityTypeID": 9
+                            },
+                            {
+                                "AmenityId": 92,
+                                "AmenityName": "Invite to events",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Invitetoevents_20190122102715.png",
+                                "AmenityTypeID": 9
+                            },
+                            {
+                                "AmenityId": 114,
+                                "AmenityName": "Mini Gym",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/MiniGym_20190227080806.png",
+                                "AmenityTypeID": 9
+                            }
+                        ]
+                    }
+                ],
+                "Images": [
+                    {
+                        "ImageTypeId": 1,
+                        "ImageType": "Bedroom",
+                        "SortOrder": 1,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044249-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904044249-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044249-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904044249-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 1,
+                        "ImageType": "Bedroom",
+                        "SortOrder": 1,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044231-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904044231-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044231-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904044231-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 1,
+                        "ImageType": "Bedroom",
+                        "SortOrder": 1,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044144-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904044144-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044144-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904044144-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 3,
+                        "ImageType": "Living",
+                        "SortOrder": 3,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904043918-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904043918-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904043918-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904043918-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 6,
+                        "ImageType": "Amenities",
+                        "SortOrder": 6,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904043953-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904043953-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904043953-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904043953-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 6,
+                        "ImageType": "Amenities",
+                        "SortOrder": 6,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190308044723-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190308044723-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190308044723-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190308044723-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 6,
+                        "ImageType": "Amenities",
+                        "SortOrder": 6,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021516-560x340.jpeg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190918021516-280X170.jpeg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021516-560x340.jpeg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190918021516-140X130.jpeg"
+                    },
+                    {
+                        "ImageTypeId": 6,
+                        "ImageType": "Amenities",
+                        "SortOrder": 6,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021500-560x340.jpeg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190918021500-280X170.jpeg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021500-560x340.jpeg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190918021500-140X130.jpeg"
+                    },
+                    {
+                        "ImageTypeId": 6,
+                        "ImageType": "Amenities",
+                        "SortOrder": 6,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021416-560x340.jpeg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190918021416-280X170.jpeg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021416-560x340.jpeg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190918021416-140X130.jpeg"
+                    }
+                ],
+                "Testimonials": [
+                    {
+                        "CustomerName": "Amit Verma",
+                        "Description": "Good Services provided by CoLive with all amenities",
+                        "Location": "Bangalore",
+                        "Rating": 5,
+                        "TestimonialsType": "Property",
+                        "TestimonialsTypeID": 3,
+                        "Image": "https://www.colive.com/utility/files/testimonials/Testi_Verma_20171216122425.jpg"
+                    },
+                    {
+                        "CustomerName": "Aman Munshi",
+                        "Description": "There are several reasons to thank Colive as I have stayed with Colive for full 11 months, and have completely enjoyed my stay here and have made innumerable Memories with the awesome roomies alloted to me. The 1 year party organised on 11th Feb, at Brew and Barbeque, exactly 1 day before my Birthday and the way people celebrated my Birthday post the party was really heart touching.\r\nI have always contributed in making the Services at Akshaya Vasudha better each day. One incident which gave me an awesome impression of Mr. Suresh Rangarajan and his vision towards making Colive the most comfortable accommodation for bachelors, is when I had repeatedly mailed and complained him for the Internet Services, and all of a sudden saw him on our gate one Saturday Morning to fix the Internet issue. That incident and personally replying to all the messages in Whatsapp Group of Akshaya Vasudha really proved how much he cared for the community.",
+                        "Location": "Bangalore",
+                        "Rating": 5,
+                        "TestimonialsType": "Property",
+                        "TestimonialsTypeID": 3,
+                        "Image": "https://www.colive.com/utility/files/testimonials/aman munshi_20170715113721.jpg"
+                    },
+                    {
+                        "CustomerName": "Pankaj Bankey",
+                        "Description": "Awesome place to stay. My experience in Colive home is pleasant.",
+                        "Location": "",
+                        "Rating": 5,
+                        "TestimonialsType": "Property",
+                        "TestimonialsTypeID": 3,
+                        "Image": "https://www.colive.com/utility/files/testimonials/Updated men_20190409073325.jpg"
+                    },
+                    {
+                        "CustomerName": "Sudeepthi Reddy",
+                        "Description": "Colive is good, rooms are well maintained and looks new.",
+                        "Location": "",
+                        "Rating": 5,
+                        "TestimonialsType": "Property",
+                        "TestimonialsTypeID": 3,
+                        "Image": "https://www.colive.com/utility/files/testimonials/Updated image_20190409073108.jpg"
+                    },
+                    {
+                        "CustomerName": "Mansi Gupta",
+                        "Description": "Very good experience. Good location, Safe and happy place to stay.",
+                        "Location": "",
+                        "Rating": 5,
+                        "TestimonialsType": "Property",
+                        "TestimonialsTypeID": 3,
+                        "Image": "https://www.colive.com/utility/files/testimonials/Updated image_20190409072433.jpg"
+                    }
+                ],
+                "CharacterRepresentation": [
+                    {
+                        "CategoryID": 1,
+                        "CategoryTagName": "Habits",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 1,
+                                "QuestionnaireTagName": "Smoking",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 2,
+                                "QuestionnaireTagName": "Organised",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 4,
+                                "QuestionnaireTagName": "Night Owl",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 6,
+                                "QuestionnaireTagName": "Party Animal",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": 2,
+                        "CategoryTagName": "Food",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 8,
+                                "QuestionnaireTagName": "Non-Veg",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 12,
+                                "QuestionnaireTagName": "Cooking",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 13,
+                                "QuestionnaireTagName": "Drinks",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": 3,
+                        "CategoryTagName": "Watching",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 16,
+                                "QuestionnaireTagName": "Hollywood Movies",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 23,
+                                "QuestionnaireTagName": "Cricket Lovers",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 25,
+                                "QuestionnaireTagName": "Football Fanatics",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 0
+                            },
+                            {
+                                "QuestionnaireID": 49,
+                                "QuestionnaireTagName": "Netflix / Prime addicts",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": 4,
+                        "CategoryTagName": "Listening to",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 27,
+                                "QuestionnaireTagName": "Head bangers",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 28,
+                                "QuestionnaireTagName": "Radio listeners",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 29,
+                                "QuestionnaireTagName": "Love Bollywood songs",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 30,
+                                "QuestionnaireTagName": "Classical Music Lover",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": 5,
+                        "CategoryTagName": "Free-time, Fun-time",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 33,
+                                "QuestionnaireTagName": "Pub-Crawler",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 35,
+                                "QuestionnaireTagName": "Fitness Crazy",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 36,
+                                "QuestionnaireTagName": "Dancer",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 38,
+                                "QuestionnaireTagName": "Online gamer",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": 6,
+                        "CategoryTagName": "My roommate",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 40,
+                                "QuestionnaireTagName": "Agony Aunt",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 45,
+                                "QuestionnaireTagName": "Talkative",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 46,
+                                "QuestionnaireTagName": "Privacy",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 47,
+                                "QuestionnaireTagName": "Accomodative",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": -1,
+                        "CategoryTagName": "Gender",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 0,
+                                "QuestionnaireTagName": "Male",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 22
+                            },
+                            {
+                                "QuestionnaireID": 0,
+                                "QuestionnaireTagName": "Female",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 78
+                            }
+                        ]
+                    }
+                ],
+                "Offers": [
+                    {
+                        "Description": "AWESOME APRIL - Flat 35% OFF ON ALL BOOKINGS Use Coupon Code: AKSHAYAVASUDHA35"
+                    }
+                ]
+            },
+            {
+                "SubLocation": "Mahadevapura and Hebbal",
+                "Area": "Mahadevpura",
+                "PropertyID": 13,
+                "PropertyName": "Colive 004 Akshaya Vasudha ",
+                "Latitude": "12.971065",
+                "Longitude": "77.69471799999997",
+                "ApartmentID": 105,
+                "ApartmentName": "Akshaya Vasudha/211",
+                "RoomId": 349,
+                "OfferValues": 0.00,
+                "PricePerMonth": 9000.00,
+                "FixedAmenitiesPricing": 0,
+                "Deposit": 18000.00,
+                "PropertyType": "3 BHK Apartments",
+                "ImageType": "Bedroom",
+                "ReferUrl": "https://www.colive.com/property?location=CoLive_004",
+                "Capacity": "This entire building which has 2 wings is managed by CoLive & can house a total of 99 people in 34 apartments (10 One RKs, 5 One BHKs, 15 Two BHKs & 4 Three BHKs).",
+                "LocationDescription": "Colive Akshaya Vasudha is a premium property in modern styling with studio rooms and 2 BHK rooms without kitchen. The property is available in single and double sharing.\n\n",
+                "Availablity": "",
+                "SquareFeet": 0.00,
+                "ImageName": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044249-560x340.jpg",
+                "TileImageName": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904044249-280X170.jpg",
+                "DetailedImageName": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044249-560x340.jpg",
+                "SmallImageName": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904044249-140X130.jpg",
+                "PropertyModelType": 1,
+                "URL360Deg": null,
+                "YouTubeURL": "https://www.youtube.com/embed/KPjounlw2vY",
+                "LocationHighlights": "This property is located in Doddanekundi behind Udupi Garden Restaurant. Nearby restaurants, including Five Star Chicken and Brew &amp; Barbeque at Soul Space Arena is in close proximity. Bagmane Tech Park and Samsung R&amp;D is easily accessible from this location.",
+                "GooglePlusCode": "7J4VXMCV+CV",
+                "Landmark": "#277/277, 2nd A Main Rd, Gururaja Layout, Vibhutipura Extension, Doddanekundi, Bengaluru",
+                "TrendingTagDisplay": false,
+                "TrendingTagTypeId": 0,
+                "TrendingTagName": "",
+                "PropertyVariantsTypeId": 11,
+                "PropertyVariantTagName": "Couple Friendly",
+                "City": "Bangalore",
+                "PropertyRating": 0.0,
+                "CustomerReviewsCount": 0,
+                "IsHavingVideoVisit": true,
+                "VideoVisit": {
+                    "IsHavingVideoVisit": true,
+                    "VideoVisitRoomCode": "",
+                    "IsVideoVisitEnable": false
+                },
+                "Amenities": [
+                    {
+                        "UtilityType": "Style",
+                        "Utility": [
+                            {
+                                "AmenityId": 70,
+                                "AmenityName": "Cooking Stove & Cylinder *",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104082355.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 12,
+                                "AmenityName": "Cupboard",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Cupboard_20170926092041.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 72,
+                                "AmenityName": "Dining Table *",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104082553.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 115,
+                                "AmenityName": "DTH *",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/DTH_20190301064627.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 18,
+                                "AmenityName": "Geyser",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Geyser_20170926092217.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 67,
+                                "AmenityName": "Induction Stove *",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104081539.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 13,
+                                "AmenityName": "Premium Bedding",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/PremiumBedding_20190113111048.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 6,
+                                "AmenityName": "Refrigerator",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Refrigerator_20170926091054.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 74,
+                                "AmenityName": "TV *",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104090209.png",
+                                "AmenityTypeID": 4
+                            },
+                            {
+                                "AmenityId": 7,
+                                "AmenityName": "Washing Machine",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/WashingMachine_20170926091915.png",
+                                "AmenityTypeID": 4
+                            }
+                        ]
+                    },
+                    {
+                        "UtilityType": "Safety",
+                        "Utility": [
+                            {
+                                "AmenityId": 43,
+                                "AmenityName": "Access Control",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/AccessControl_20190103025349.png",
+                                "AmenityTypeID": 5
+                            },
+                            {
+                                "AmenityId": 45,
+                                "AmenityName": "CCTV",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/CCTV_20190103030344.png",
+                                "AmenityTypeID": 5
+                            },
+                            {
+                                "AmenityId": 121,
+                                "AmenityName": "Central Security Monitoring System",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/CentralSecurityMonitoringSystem_20190531074118.png",
+                                "AmenityTypeID": 5
+                            },
+                            {
+                                "AmenityId": 24,
+                                "AmenityName": "Security",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Security_20170926092840.png",
+                                "AmenityTypeID": 5
+                            },
+                            {
+                                "AmenityId": 65,
+                                "AmenityName": "SOS/ Emergency Response",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104080524.png",
+                                "AmenityTypeID": 5
+                            }
+                        ]
+                    },
+                    {
+                        "UtilityType": "Service",
+                        "Utility": [
+                            {
+                                "AmenityId": 49,
+                                "AmenityName": "Community Washing Machine",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/CommunityWashingMachine_20190103073959.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 20,
+                                "AmenityName": "Cooking Stove",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/CookingStove_20170926092252.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 59,
+                                "AmenityName": "DG & Electricity @ actuals",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/DG&Electricity@actuals_20190128112348.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 44,
+                                "AmenityName": "Hot Water",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/HotWater_20190103072420.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 73,
+                                "AmenityName": "Housekeeping - Bi Weekly",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Test__20190104082840.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 32,
+                                "AmenityName": "Lift",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Lift_20170926091550.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 162,
+                                "AmenityName": "Parking Space",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/ParkingSpace_20200303072802.png",
+                                "AmenityTypeID": 7
+                            },
+                            {
+                                "AmenityId": 22,
+                                "AmenityName": "Power Back up",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/PowerBackup_20170926091632.png",
+                                "AmenityTypeID": 7
+                            }
+                        ]
+                    },
+                    {
+                        "UtilityType": "Savings",
+                        "Utility": [
+                            {
+                                "AmenityId": 151,
+                                "AmenityName": "1 Month Deposit",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/2MonthsDeposit_20200224122341.png",
+                                "AmenityTypeID": 6
+                            },
+                            {
+                                "AmenityId": 168,
+                                "AmenityName": "Zero Lock-in",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/ZeroLock-in_20200730114024.png",
+                                "AmenityTypeID": 6
+                            }
+                        ]
+                    },
+                    {
+                        "UtilityType": "Smart",
+                        "Utility": [
+                            {
+                                "AmenityId": 38,
+                                "AmenityName": "30 GB Wifi",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/30GBwiFi_20190103020620.png",
+                                "AmenityTypeID": 8
+                            }
+                        ]
+                    },
+                    {
+                        "UtilityType": "Social",
+                        "Utility": [
+                            {
+                                "AmenityId": 27,
+                                "AmenityName": "Fitness Room",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Gym_20170926092729.png",
+                                "AmenityTypeID": 9
+                            },
+                            {
+                                "AmenityId": 92,
+                                "AmenityName": "Invite to events",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/Invitetoevents_20190122102715.png",
+                                "AmenityTypeID": 9
+                            },
+                            {
+                                "AmenityId": 114,
+                                "AmenityName": "Mini Gym",
+                                "Image": "https://www.colive.com/utility/files/amenityimages/MiniGym_20190227080806.png",
+                                "AmenityTypeID": 9
+                            }
+                        ]
+                    }
+                ],
+                "Images": [
+                    {
+                        "ImageTypeId": 1,
+                        "ImageType": "Bedroom",
+                        "SortOrder": 1,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044249-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904044249-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044249-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904044249-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 1,
+                        "ImageType": "Bedroom",
+                        "SortOrder": 1,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044231-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904044231-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044231-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904044231-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 1,
+                        "ImageType": "Bedroom",
+                        "SortOrder": 1,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044144-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904044144-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904044144-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904044144-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 3,
+                        "ImageType": "Living",
+                        "SortOrder": 3,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904043918-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904043918-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904043918-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904043918-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 6,
+                        "ImageType": "Amenities",
+                        "SortOrder": 6,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904043953-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190904043953-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190904043953-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190904043953-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 6,
+                        "ImageType": "Amenities",
+                        "SortOrder": 6,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190308044723-560x340.jpg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190308044723-280X170.jpg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190308044723-560x340.jpg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190308044723-140X130.jpg"
+                    },
+                    {
+                        "ImageTypeId": 6,
+                        "ImageType": "Amenities",
+                        "SortOrder": 6,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021516-560x340.jpeg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190918021516-280X170.jpeg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021516-560x340.jpeg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190918021516-140X130.jpeg"
+                    },
+                    {
+                        "ImageTypeId": 6,
+                        "ImageType": "Amenities",
+                        "SortOrder": 6,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021500-560x340.jpeg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190918021500-280X170.jpeg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021500-560x340.jpeg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190918021500-140X130.jpeg"
+                    },
+                    {
+                        "ImageTypeId": 6,
+                        "ImageType": "Amenities",
+                        "SortOrder": 6,
+                        "Image": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021416-560x340.jpeg",
+                        "TileImage": "https://www.colive.com/utilities/files/gallery/280x170/Colive-004-Akshaya-Vasudha-_190918021416-280X170.jpeg",
+                        "DetailedImage": "https://www.colive.com/utilities/files/gallery/560x340/Colive-004-Akshaya-Vasudha-_190918021416-560x340.jpeg",
+                        "SmallImage": "https://www.colive.com/utility/files/gallery/140x130/Colive-004-Akshaya-Vasudha-_190918021416-140X130.jpeg"
+                    }
+                ],
+                "Testimonials": [
+                    {
+                        "CustomerName": "Amit Verma",
+                        "Description": "Good Services provided by CoLive with all amenities",
+                        "Location": "Bangalore",
+                        "Rating": 5,
+                        "TestimonialsType": "Property",
+                        "TestimonialsTypeID": 3,
+                        "Image": "https://www.colive.com/utility/files/testimonials/Testi_Verma_20171216122425.jpg"
+                    },
+                    {
+                        "CustomerName": "Aman Munshi",
+                        "Description": "There are several reasons to thank Colive as I have stayed with Colive for full 11 months, and have completely enjoyed my stay here and have made innumerable Memories with the awesome roomies alloted to me. The 1 year party organised on 11th Feb, at Brew and Barbeque, exactly 1 day before my Birthday and the way people celebrated my Birthday post the party was really heart touching.\r\nI have always contributed in making the Services at Akshaya Vasudha better each day. One incident which gave me an awesome impression of Mr. Suresh Rangarajan and his vision towards making Colive the most comfortable accommodation for bachelors, is when I had repeatedly mailed and complained him for the Internet Services, and all of a sudden saw him on our gate one Saturday Morning to fix the Internet issue. That incident and personally replying to all the messages in Whatsapp Group of Akshaya Vasudha really proved how much he cared for the community.",
+                        "Location": "Bangalore",
+                        "Rating": 5,
+                        "TestimonialsType": "Property",
+                        "TestimonialsTypeID": 3,
+                        "Image": "https://www.colive.com/utility/files/testimonials/aman munshi_20170715113721.jpg"
+                    },
+                    {
+                        "CustomerName": "Pankaj Bankey",
+                        "Description": "Awesome place to stay. My experience in Colive home is pleasant.",
+                        "Location": "",
+                        "Rating": 5,
+                        "TestimonialsType": "Property",
+                        "TestimonialsTypeID": 3,
+                        "Image": "https://www.colive.com/utility/files/testimonials/Updated men_20190409073325.jpg"
+                    },
+                    {
+                        "CustomerName": "Sudeepthi Reddy",
+                        "Description": "Colive is good, rooms are well maintained and looks new.",
+                        "Location": "",
+                        "Rating": 5,
+                        "TestimonialsType": "Property",
+                        "TestimonialsTypeID": 3,
+                        "Image": "https://www.colive.com/utility/files/testimonials/Updated image_20190409073108.jpg"
+                    },
+                    {
+                        "CustomerName": "Mansi Gupta",
+                        "Description": "Very good experience. Good location, Safe and happy place to stay.",
+                        "Location": "",
+                        "Rating": 5,
+                        "TestimonialsType": "Property",
+                        "TestimonialsTypeID": 3,
+                        "Image": "https://www.colive.com/utility/files/testimonials/Updated image_20190409072433.jpg"
+                    }
+                ],
+                "CharacterRepresentation": [
+                    {
+                        "CategoryID": 1,
+                        "CategoryTagName": "Habits",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 1,
+                                "QuestionnaireTagName": "Smoking",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 2,
+                                "QuestionnaireTagName": "Organised",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 4,
+                                "QuestionnaireTagName": "Night Owl",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 6,
+                                "QuestionnaireTagName": "Party Animal",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": 2,
+                        "CategoryTagName": "Food",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 8,
+                                "QuestionnaireTagName": "Non-Veg",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 12,
+                                "QuestionnaireTagName": "Cooking",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 13,
+                                "QuestionnaireTagName": "Drinks",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": 3,
+                        "CategoryTagName": "Watching",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 16,
+                                "QuestionnaireTagName": "Hollywood Movies",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 23,
+                                "QuestionnaireTagName": "Cricket Lovers",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 25,
+                                "QuestionnaireTagName": "Football Fanatics",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 0
+                            },
+                            {
+                                "QuestionnaireID": 49,
+                                "QuestionnaireTagName": "Netflix / Prime addicts",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": 4,
+                        "CategoryTagName": "Listening to",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 27,
+                                "QuestionnaireTagName": "Head bangers",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 28,
+                                "QuestionnaireTagName": "Radio listeners",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 29,
+                                "QuestionnaireTagName": "Love Bollywood songs",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 30,
+                                "QuestionnaireTagName": "Classical Music Lover",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": 5,
+                        "CategoryTagName": "Free-time, Fun-time",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 33,
+                                "QuestionnaireTagName": "Pub-Crawler",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 35,
+                                "QuestionnaireTagName": "Fitness Crazy",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 36,
+                                "QuestionnaireTagName": "Dancer",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 38,
+                                "QuestionnaireTagName": "Online gamer",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": 6,
+                        "CategoryTagName": "My roommate",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 40,
+                                "QuestionnaireTagName": "Agony Aunt",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 45,
+                                "QuestionnaireTagName": "Talkative",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 46,
+                                "QuestionnaireTagName": "Privacy",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            },
+                            {
+                                "QuestionnaireID": 47,
+                                "QuestionnaireTagName": "Accomodative",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 100
+                            }
+                        ]
+                    },
+                    {
+                        "CategoryID": -1,
+                        "CategoryTagName": "Gender",
+                        "CategoryTagImage": "",
+                        "QuestionnaireDetails": [
+                            {
+                                "QuestionnaireID": 0,
+                                "QuestionnaireTagName": "Male",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 22
+                            },
+                            {
+                                "QuestionnaireID": 0,
+                                "QuestionnaireTagName": "Female",
+                                "QuestionnaireTagImage": "",
+                                "Percentage": 78
+                            }
+                        ]
+                    }
+                ],
+                "Offers": [
+                    {
+                        "Description": "AWESOME APRIL - Flat 35% OFF ON ALL BOOKINGS Use Coupon Code: AKSHAYAVASUDHA35"
+                    }
+                ]
+            }
+        ]
+    }
+}
