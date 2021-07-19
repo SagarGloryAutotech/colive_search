@@ -111,6 +111,8 @@
               var i = 0;
               for (let id of res) {
                 if (id.propertyId) {
+                  btn.disabled = true;
+                  btn.style.background = "#eb9fc1";
                   const xhttp = new XMLHttpRequest();
                   xhttp.open("POST", "https://colive-dev.azurewebsites.net/properties", true);
                   xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
